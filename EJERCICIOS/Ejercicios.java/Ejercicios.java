@@ -195,16 +195,6 @@ public class Ejercicios {
         System.out.println("Sen x es:"+fresulSenX);
 
         
-
-
-    }    
-
-   //ejercicio 4.12
-   public static void determinareltotaldelacajaregistradora() {
-
-  
-
-
 }
   //ejercicio 4.8
   static void preciosdearticulos(){
@@ -239,7 +229,7 @@ public class Ejercicios {
     System.out.println("El descuento sera de : "+descuenta);
 }
    //ejercicio 4.16
-       public static void Cubodenropositivo() {
+        static void Cubodenropositivo() {
         System.out.println("el cubo de los numeros naturales");
         //variables
         int CuboNum, Num= 0;
@@ -273,7 +263,7 @@ public class Ejercicios {
         //hallarSenoX ();
         //preciosdearticulos();
         //sueldosemanal();
-        Cubodenropositivo();
+        //Cubodenropositivo();
 
 
 
