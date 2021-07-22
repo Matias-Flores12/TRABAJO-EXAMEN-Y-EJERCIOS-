@@ -2,24 +2,21 @@ import pe.edu.upeu.SubProgramas;
 import pe.edu.recur.EjemplosRecursivos;
 import pe.edu.upeu.util.TecladoRead;
 public class App {
-    public static void main(String[] args) throws Exception {
-        System.out.println("Hello, World!");
-
-        SubProgramas objSP=new SubProgramas();
-        EjemplosRecursivos objER=new EjemplosRecursivos();
-        TecladoRead tr=new TecladoRead();
-        //objSP.calcularFuncionExponecial();
-        int numero=tr.read(0, "Indroducir un numero:");
-        /*System.out.println("Factorial iterativo: "+objER.factorialBig(numero)); 
-        System.out.println("Factorial Recursivo: "+objER.factorialBigRecur(numero)); */
-        long ti=System.currentTimeMillis();
-        System.out.println("Fibonaci iterativo: "+objER.fibonaci(numero));
-        long tf=System.currentTimeMillis();
-        System.out.println("Tiempo iterativo:" + (tf+ti));
-        ti=System.currentTimeMillis();
-        System.out.println("Fibonasi recursivo: " +objER.fibonaciRecur(numero));
-        tf=System.currentTimeMillis();
-        System.out.println("Tiempo recursivo: " +(tf-ti));
+    public static void main(String[] args) {
+        Transformada tObj=new Transformada();
+        //tObj.transformada1(5, 0);
+        //tObj.transformada2(5,0);
+        System.out.println("");
+        tObj.transformada16(5, 0);
+        //tObj.transformada14(5, 0);
+        //tObj.transformada18(5, 0);
+        //tObj.transformada07(5, 0);
+        //tObj.transformada17(5, 0);
+        //tObj.transformada12(5, 0);
+        //tObj.transformada13(5, 0);
+        //tObj.transformada24(5, 0);
+        //tObj.transformada27(5, 0);
+        //tObj.transformada13(5, 0);
     
      
 

@@ -12,7 +12,7 @@ public class App {
        //obj.impuestoVehiculos();
       // obj.MultiplicaciondeunNumeroENtero();
       //obj.DeterminaciondenumerosPerfectos();
-      System.out.println(obj.potencia(4,10));
+      //System.out.println(obj.potencia(4,10));
        
     }
 }
